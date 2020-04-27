@@ -2,7 +2,7 @@
     
     display: grid;
     grid-template-columns: 16.67% 16.67% 16.67% 16.67% 16.67% 16.67%;
-    grid-template-rows: 10% 60% 30% 6% 25% 25% 25%;
+    grid-template-rows: 10% 60% 30% 6% 25% 25% 25% 8% 8%;
   }
 
 .header {
@@ -241,11 +241,23 @@ a {
 .slicknav_menu {
     display:none;
 }
+.creator{
+    grid-row-start: 8;
+    grid-row-end: 9;
+    grid-column-start: 1;
+    grid-column-end:7;
+}
+.Designs{
+    grid-row-start: 8;
+    grid-row-end: 9;
+    grid-column-start: 1;
+    grid-column-end:7;
+}
 
 @media screen and (max-width: 1300px) {
     .container{
   grid-template-columns: 16.67% 16.67% 16.67% 16.67% 16.67% 16.67%;
-  grid-template-rows: 20vh 70vh 40vh 15vh 35vh 35vh 35vh;
+  grid-template-rows: 20vh 70vh 40vh 15vh 35vh 35vh 35vh 10vh 10vh;
     }
     
     
